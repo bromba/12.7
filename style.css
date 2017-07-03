@@ -1,0 +1,89 @@
+body {
+  margin: 0, auto;
+}
+* {
+  box-sizing: border-box;
+}
+.ui-sortable {
+  min-height: 80px;
+}
+.btn-delete {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 40px;
+  height: 25px;
+  border: 0, auto;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+}
+/* board styling */
+.board h1 {
+  padding-top: 20px;
+  text-align: center;
+  font: bold 40px Helvetica;
+
+}
+div {
+  background-color: rgba(182, 203, 237, 1);
+}
+/* h2 from columns */
+h2 {
+  text-align: center;
+}
+.create-column {
+  margin-left: 15px;
+  padding: 10px;
+  border-radius: 5%;
+}
+.column-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 10px;
+
+}
+
+
+/* column styling */
+.column {
+  order: 1;
+  width: 24%;
+  height: 70vh;
+  background-color: rgba(255, 249, 170, 1);
+  margin: 10px;
+  list-style: none;
+  position: relative;
+}
+.add-card {
+  cursor: pointer;
+  text-decoration: underline;
+  margin: 5px 8px;
+  display: block;
+}
+
+/* card styling */
+.card {
+  box-sizing: border-box;
+  display: block;
+  min-height: 40px;
+  margin: 8px;
+  padding: 4px;
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+  text-align: center;
+}
+.card-list {
+  list-style: none;
+  margin: 5px;
+  padding: 0px;
+}
+
+.card-placeholder {
+  box-sizing: border-box;
+  display: block;
+  min-height: 60px;
+  background-color: rgba(86, 82, 21, 1);
+}
